@@ -12,6 +12,7 @@
 }
 
 .flexOne {
+  order: 1;
   margin: 10px;
   background-color: #1177ff;
   color: #000;
