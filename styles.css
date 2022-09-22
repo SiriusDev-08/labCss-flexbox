@@ -1,0 +1,17 @@
+.appbar {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #fff;
+  height: 56px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.flexClass {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1177ff;
+  color: #fff;
+  height: 50%;
+}
