@@ -5,9 +5,9 @@
 
 .flexContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: right;
 }
 
 .flexOne {

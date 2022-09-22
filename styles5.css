@@ -5,9 +5,10 @@
 
 .flexContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: left;
+  flex-wrap: wrap;
 }
 
 .flexOne {
@@ -15,7 +16,7 @@
   background-color: #1177ff;
   color: #000;
   height: 80px;
-  width: 120px;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +27,7 @@
   background-color: #1177ff;
   color: #000;
   height: 80px;
-  width: 120px;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +38,29 @@
   background-color: #1177ff;
   color: #000;
   height: 80px;
-  width: 120px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexFour {
+  margin: 10px;
+  background-color: #1177ff;
+  color: #000;
+  height: 80px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexFive {
+  margin: 10px;
+  background-color: #1177ff;
+  color: #000;
+  height: 80px;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
